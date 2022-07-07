@@ -2,11 +2,12 @@
 	"name": "pp-screenshot",
 	"private": true,
 	"pluginName": "screenshot",
+	"pluginType": "ui",
 	"description": "pp工具的截图插件",
 	"author": "J.S.Patrick",
 	"main": "dist/index.html",
 	"preload": "dist/preload/index.cjs",
-	"logo": "www.baidu.com/img/flexible/logo/pc/result.png",
+	"logo": "https://www.baidu.com/img/flexible/logo/pc/result.png",
 	"pp-scripts": {
 		"build": "yarn run build"
 	},
